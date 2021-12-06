@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_todos">
+
+    <fragment
+        android:id="@+id/nav_todos"
+        android:name="com.example.listpad.view.TodasFragment"
+        android:label="@string/menu_todos_listpad"
+        tools:layout="@layout/fragment_all" />
+
+    <fragment
+        android:id="@+id/nav_urgentes"
+        android:name="com.example.listpad.view.UrgenteFragment"
+        android:label="@string/menu_urgentes"
+        tools:layout="@layout/fragment_urgente" />
+
+    <fragment
+        android:id="@+id/nav_nao_urgentes"
+        android:name="com.example.listpad.view.NaoUrgenteFragment"
+        android:label="@string/menu_nao_urgentes"
+        tools:layout="@layout/fragment_naourgente" />
+
+</navigation>

@@ -1,0 +1,1058 @@
+Index: ../compras/wrapper/dists/gradle-7.0.2-bin/857tjihv64xamwrf0h14cai3r/gradle-7.0.2/init.d/readme.txt
+===================================================================
+diff --git a/../compras/wrapper/dists/gradle-7.0.2-bin/857tjihv64xamwrf0h14cai3r/gradle-7.0.2/init.d/readme.txt b/../compras/wrapper/dists/gradle-7.0.2-bin/857tjihv64xamwrf0h14cai3r/gradle-7.0.2/init.d/readme.txt
+deleted file mode 100644
+--- a/../compras/wrapper/dists/gradle-7.0.2-bin/857tjihv64xamwrf0h14cai3r/gradle-7.0.2/init.d/readme.txt	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-You can add .gradle (e.g. test.gradle) init scripts to this directory. Each one is executed at the start of the build.
+Index: ../CardView2/.idea/.gitignore
+===================================================================
+diff --git a/../CardView2/.idea/.gitignore b/../CardView2/.idea/.gitignore
+deleted file mode 100644
+--- a/../CardView2/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../Fragments/app/src/main/java/br/edu/ifsp/fragments/fragment/ConversasFragment.java
+===================================================================
+diff --git a/../Fragments/app/src/main/java/br/edu/ifsp/fragments/fragment/ConversasFragment.java b/../Fragments/app/src/main/java/br/edu/ifsp/fragments/fragment/ConversasFragment.java
+deleted file mode 100644
+--- a/../Fragments/app/src/main/java/br/edu/ifsp/fragments/fragment/ConversasFragment.java	
++++ /dev/null	
+@@ -1,66 +0,0 @@
+-package br.edu.ifsp.fragments.fragment;
+-
+-import android.os.Bundle;
+-
+-import androidx.fragment.app.Fragment;
+-
+-import android.view.LayoutInflater;
+-import android.view.View;
+-import android.view.ViewGroup;
+-
+-import br.edu.ifsp.fragments.R;
+-
+-/**
+- * A simple {@link Fragment} subclass.
+- * Use the {@link ConversasFragment#newInstance} factory method to
+- * create an instance of this fragment.
+- */
+-public class ConversasFragment extends Fragment {
+-
+-    // TODO: Rename parameter arguments, choose names that match
+-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+-    private static final String ARG_PARAM1 = "param1";
+-    private static final String ARG_PARAM2 = "param2";
+-
+-    // TODO: Rename and change types of parameters
+-    private String mParam1;
+-    private String mParam2;
+-
+-    public ConversasFragment() {
+-        // Required empty public constructor
+-    }
+-
+-    /**
+-     * Use this factory method to create a new instance of
+-     * this fragment using the provided parameters.
+-     *
+-     * @param param1 Parameter 1.
+-     * @param param2 Parameter 2.
+-     * @return A new instance of fragment ConversasFragment.
+-     */
+-    // TODO: Rename and change types and number of parameters
+-    public static ConversasFragment newInstance(String param1, String param2) {
+-        ConversasFragment fragment = new ConversasFragment();
+-        Bundle args = new Bundle();
+-        args.putString(ARG_PARAM1, param1);
+-        args.putString(ARG_PARAM2, param2);
+-        fragment.setArguments(args);
+-        return fragment;
+-    }
+-
+-    @Override
+-    public void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        if (getArguments() != null) {
+-            mParam1 = getArguments().getString(ARG_PARAM1);
+-            mParam2 = getArguments().getString(ARG_PARAM2);
+-        }
+-    }
+-
+-    @Override
+-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+-                             Bundle savedInstanceState) {
+-        // Inflate the layout for this fragment
+-        return inflater.inflate(R.layout.fragment_conversas, container, false);
+-    }
+-}
+\ No newline at end of file
+Index: ../compras/AppListaDeCompras/.idea/vcs.xml
+===================================================================
+diff --git a/../compras/AppListaDeCompras/.idea/vcs.xml b/../compras/AppListaDeCompras/.idea/vcs.xml
+deleted file mode 100644
+--- a/../compras/AppListaDeCompras/.idea/vcs.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../compras/AppListaDeCompras/.idea/compiler.xml
+===================================================================
+diff --git a/../compras/AppListaDeCompras/.idea/compiler.xml b/../compras/AppListaDeCompras/.idea/compiler.xml
+deleted file mode 100644
+--- a/../compras/AppListaDeCompras/.idea/compiler.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../compras/caches/6.8/scripts/c6tdx9uv1hk7iyzrckzjkjnt5/cache.properties
+===================================================================
+diff --git a/../compras/caches/6.8/scripts/c6tdx9uv1hk7iyzrckzjkjnt5/cache.properties b/../compras/caches/6.8/scripts/c6tdx9uv1hk7iyzrckzjkjnt5/cache.properties
+deleted file mode 100644
+--- a/../compras/caches/6.8/scripts/c6tdx9uv1hk7iyzrckzjkjnt5/cache.properties	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-#Fri Dec 03 19:58:05 BRT 2021
+Index: ../Listadetarefas/.idea/modules.xml
+===================================================================
+diff --git a/../Listadetarefas/.idea/modules.xml b/../Listadetarefas/.idea/modules.xml
+deleted file mode 100644
+--- a/../Listadetarefas/.idea/modules.xml	
++++ /dev/null	
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/Listadetarefas.iml" filepath="$PROJECT_DIR$/Listadetarefas.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../CardView2/.idea/vcs.xml
+===================================================================
+diff --git a/../CardView2/.idea/vcs.xml b/../CardView2/.idea/vcs.xml
+deleted file mode 100644
+--- a/../CardView2/.idea/vcs.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../CardView2/.idea/misc.xml
+===================================================================
+diff --git a/../CardView2/.idea/misc.xml b/../CardView2/.idea/misc.xml
+deleted file mode 100644
+--- a/../CardView2/.idea/misc.xml	
++++ /dev/null	
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="DesignSurface">
+-    <option name="filePathToZoomLevelMap">
+-      <map>
+-        <entry key="..\:/Users/tonli/StudioProjects/CardView2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+-      </map>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/build/classes" />
+-  </component>
+-  <component name="ProjectType">
+-    <option name="id" value="Android" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../compras/AppListaDeCompras/.idea/.gitignore
+===================================================================
+diff --git a/../compras/AppListaDeCompras/.idea/.gitignore b/../compras/AppListaDeCompras/.idea/.gitignore
+deleted file mode 100644
+--- a/../compras/AppListaDeCompras/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../compras/AppListaDeCompras/.idea/gradle.xml
+===================================================================
+diff --git a/../compras/AppListaDeCompras/.idea/gradle.xml b/../compras/AppListaDeCompras/.idea/gradle.xml
+deleted file mode 100644
+--- a/../compras/AppListaDeCompras/.idea/gradle.xml	
++++ /dev/null	
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="GradleMigrationSettings" migrationVersion="1" />
+-  <component name="GradleSettings">
+-    <option name="linkedExternalProjectsSettings">
+-      <GradleProjectSettings>
+-        <option name="testRunner" value="GRADLE" />
+-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="modules">
+-          <set>
+-            <option value="$PROJECT_DIR$" />
+-            <option value="$PROJECT_DIR$/app" />
+-          </set>
+-        </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+-      </GradleProjectSettings>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../compras/caches/6.8/scripts/7dpm72iua1jk32ureac121ja/cache.properties
+===================================================================
+diff --git a/../compras/caches/6.8/scripts/7dpm72iua1jk32ureac121ja/cache.properties b/../compras/caches/6.8/scripts/7dpm72iua1jk32ureac121ja/cache.properties
+deleted file mode 100644
+--- a/../compras/caches/6.8/scripts/7dpm72iua1jk32ureac121ja/cache.properties	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-#Fri Dec 03 19:58:06 BRT 2021
+Index: ../Fragments/app/src/main/res/layout/fragment_conversas.xml
+===================================================================
+diff --git a/../Fragments/app/src/main/res/layout/fragment_conversas.xml b/../Fragments/app/src/main/res/layout/fragment_conversas.xml
+deleted file mode 100644
+--- a/../Fragments/app/src/main/res/layout/fragment_conversas.xml	
++++ /dev/null	
+@@ -1,18 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:id="@+id/textConversas"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".fragment.ConversasFragment">
+-
+-    <!-- TODO: Update blank fragment layout -->
+-    <TextView
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent"
+-        android:gravity="end"
+-        android:text="@string/conversas"
+-        android:textAlignment="center"
+-        android:textSize="48sp" />
+-
+-</FrameLayout>
+\ No newline at end of file
+Index: ../CardView2/.idea/gradle.xml
+===================================================================
+diff --git a/../CardView2/.idea/gradle.xml b/../CardView2/.idea/gradle.xml
+deleted file mode 100644
+--- a/../CardView2/.idea/gradle.xml	
++++ /dev/null	
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="GradleMigrationSettings" migrationVersion="1" />
+-  <component name="GradleSettings">
+-    <option name="linkedExternalProjectsSettings">
+-      <GradleProjectSettings>
+-        <option name="testRunner" value="GRADLE" />
+-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="modules">
+-          <set>
+-            <option value="$PROJECT_DIR$" />
+-            <option value="$PROJECT_DIR$/app" />
+-          </set>
+-        </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+-      </GradleProjectSettings>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Activity/app/src/main/java/com/example/activity/SegundaActivity.java
+===================================================================
+diff --git a/../Activity/app/src/main/java/com/example/activity/SegundaActivity.java b/../Activity/app/src/main/java/com/example/activity/SegundaActivity.java
+deleted file mode 100644
+--- a/../Activity/app/src/main/java/com/example/activity/SegundaActivity.java	
++++ /dev/null	
+@@ -1,34 +0,0 @@
+-package com.example.activity;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-import android.widget.TextView;
+-
+-public class SegundaActivity extends AppCompatActivity {
+-    private TextView textNome;
+-    private TextView textIdade;
+-    private TextView textSobrenome;
+-    private TextView textEmail;
+-
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_segunda);
+-        textNome = findViewById(R.id.textNome);
+-        textIdade = findViewById(R.id.textIdade);
+-        textSobrenome = findViewById(R.id.textSobrenome);
+-        textEmail = findViewById(R.id.textEmail);
+-        //Recuperar os dados enviados da primeira Activity com Bundle
+-        Bundle dados = getIntent().getExtras();
+-        //Recuper os itens da Array de dados
+-        textNome.setText(dados.getString("nome"));
+-        textIdade.setText(dados.getString("idade"));
+-        //ou para pegar um número
+-        //int idade = dados.getInt("idade");
+-        //recupera o objeto Usuario Serializeble, necessario Cast para converter de bytes para objeto
+-        Usuario usuario = (Usuario) dados.getSerializable("objeto");
+-        textSobrenome.setText(usuario.getSobrenome());
+-        textEmail.setText(usuario.getEmail());
+-
+-    }
+-}
+\ No newline at end of file
+Index: ../compras/AppListaDeCompras/.idea/jarRepositories.xml
+===================================================================
+diff --git a/../compras/AppListaDeCompras/.idea/jarRepositories.xml b/../compras/AppListaDeCompras/.idea/jarRepositories.xml
+deleted file mode 100644
+--- a/../compras/AppListaDeCompras/.idea/jarRepositories.xml	
++++ /dev/null	
+@@ -1,25 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RemoteRepositoriesConfiguration">
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Maven Central repository" />
+-      <option name="url" value="https://repo1.maven.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="jboss.community" />
+-      <option name="name" value="JBoss Community repository" />
+-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="BintrayJCenter" />
+-      <option name="name" value="BintrayJCenter" />
+-      <option name="url" value="https://jcenter.bintray.com/" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="Google" />
+-      <option name="name" value="Google" />
+-      <option name="url" value="https://dl.google.com/dl/android/maven2/" />
+-    </remote-repository>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Fragments/.idea/compiler.xml
+===================================================================
+diff --git a/../Fragments/.idea/compiler.xml b/../Fragments/.idea/compiler.xml
+deleted file mode 100644
+--- a/../Fragments/.idea/compiler.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../exemplo_flutter/.gitignore
+===================================================================
+diff --git a/../exemplo_flutter/.gitignore b/../exemplo_flutter/.gitignore
+deleted file mode 100644
+--- a/../exemplo_flutter/.gitignore	
++++ /dev/null	
+@@ -1,46 +0,0 @@
+-# Miscellaneous
+-*.class
+-*.log
+-*.pyc
+-*.swp
+-.DS_Store
+-.atom/
+-.buildlog/
+-.history
+-.svn/
+-
+-# IntelliJ related
+-*.iml
+-*.ipr
+-*.iws
+-.idea/
+-
+-# The .vscode folder contains launch configuration and tasks you configure in
+-# VS Code which you may wish to be included in version control, so this line
+-# is commented out by default.
+-#.vscode/
+-
+-# Flutter/Dart/Pub related
+-**/doc/api/
+-**/ios/Flutter/.last_build_id
+-.dart_tool/
+-.flutter-plugins
+-.flutter-plugins-dependencies
+-.packages
+-.pub-cache/
+-.pub/
+-/build/
+-
+-# Web related
+-lib/generated_plugin_registrant.dart
+-
+-# Symbolication related
+-app.*.symbols
+-
+-# Obfuscation related
+-app.*.map.json
+-
+-# Android Studio will place build artifacts here
+-/android/app/debug
+-/android/app/profile
+-/android/app/release
+Index: ../Fragments/app/src/main/java/br/edu/ifsp/fragments/fragment/ContatosFragment.java
+===================================================================
+diff --git a/../Fragments/app/src/main/java/br/edu/ifsp/fragments/fragment/ContatosFragment.java b/../Fragments/app/src/main/java/br/edu/ifsp/fragments/fragment/ContatosFragment.java
+deleted file mode 100644
+--- a/../Fragments/app/src/main/java/br/edu/ifsp/fragments/fragment/ContatosFragment.java	
++++ /dev/null	
+@@ -1,28 +0,0 @@
+-package br.edu.ifsp.fragments.fragment;
+-
+-import android.os.Bundle;
+-
+-import androidx.fragment.app.Fragment;
+-
+-import android.view.LayoutInflater;
+-import android.view.View;
+-import android.view.ViewGroup;
+-import android.widget.TextView;
+-
+-import br.edu.ifsp.fragments.R;
+-
+-
+-public class ContatosFragment extends Fragment {
+-
+-    public TextView textContatos;
+-
+-    public ContatosFragment(){
+-    }
+-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle saveInstanceState){
+-        View view = inflater.inflate(R.layout.fragment_contatos,container, false);
+-        textContatos = view.findViewById(R.id.textContatos);
+-        textContatos.setText("Contatos alterado");
+-        return view;
+-    }
+-
+-}
+\ No newline at end of file
+Index: ../Fragments/.idea/misc.xml
+===================================================================
+diff --git a/../Fragments/.idea/misc.xml b/../Fragments/.idea/misc.xml
+deleted file mode 100644
+--- a/../Fragments/.idea/misc.xml	
++++ /dev/null	
+@@ -1,18 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="DesignSurface">
+-    <option name="filePathToZoomLevelMap">
+-      <map>
+-        <entry key="..\:/Users/tonli/StudioProjects/Fragments/app/src/main/res/layout/activity_main.xml" value="0.41414141414141414" />
+-        <entry key="..\:/Users/tonli/StudioProjects/Fragments/app/src/main/res/layout/fragment_contatos.xml" value="0.33" />
+-        <entry key="..\:/Users/tonli/StudioProjects/Fragments/app/src/main/res/layout/fragment_conversas.xml" value="0.25" />
+-      </map>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/build/classes" />
+-  </component>
+-  <component name="ProjectType">
+-    <option name="id" value="Android" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../compras/AppListaDeCompras/.idea/misc.xml
+===================================================================
+diff --git a/../compras/AppListaDeCompras/.idea/misc.xml b/../compras/AppListaDeCompras/.idea/misc.xml
+deleted file mode 100644
+--- a/../compras/AppListaDeCompras/.idea/misc.xml	
++++ /dev/null	
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/build/classes" />
+-  </component>
+-  <component name="ProjectType">
+-    <option name="id" value="Android" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../compras/.idea/Compras.iml
+===================================================================
+diff --git a/../compras/.idea/Compras.iml b/../compras/.idea/Compras.iml
+deleted file mode 100644
+--- a/../compras/.idea/Compras.iml	
++++ /dev/null	
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="FacetManager">
+-    <facet type="android" name="Android">
+-      <configuration />
+-    </facet>
+-  </component>
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+-    </content>
+-    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: ../Activity/androidx/fragment/app/annotations.xml
+===================================================================
+diff --git a/../Activity/androidx/fragment/app/annotations.xml b/../Activity/androidx/fragment/app/annotations.xml
+deleted file mode 100644
+--- a/../Activity/androidx/fragment/app/annotations.xml	
++++ /dev/null	
+@@ -1,5 +0,0 @@
+-<root>
+-    <item name='androidx.fragment.app.FragmentActivity void onCreate(android.os.Bundle)'>
+-        <annotation name='java.lang.Deprecated' />
+-    </item>
+-</root>
+\ No newline at end of file
+Index: ../compras/wrapper/dists/gradle-6.8-bin/1jblhjyydfkclfzx1agp92nyl/gradle-6.8/init.d/readme.txt
+===================================================================
+diff --git a/../compras/wrapper/dists/gradle-6.8-bin/1jblhjyydfkclfzx1agp92nyl/gradle-6.8/init.d/readme.txt b/../compras/wrapper/dists/gradle-6.8-bin/1jblhjyydfkclfzx1agp92nyl/gradle-6.8/init.d/readme.txt
+deleted file mode 100644
+--- a/../compras/wrapper/dists/gradle-6.8-bin/1jblhjyydfkclfzx1agp92nyl/gradle-6.8/init.d/readme.txt	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-You can add .gradle (e.g. test.gradle) init scripts to this directory. Each one is executed at the start of the build.
+Index: ../Listadetarefas/.idea/misc.xml
+===================================================================
+diff --git a/../Listadetarefas/.idea/misc.xml b/../Listadetarefas/.idea/misc.xml
+deleted file mode 100644
+--- a/../Listadetarefas/.idea/misc.xml	
++++ /dev/null	
+@@ -1,33 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="NullableNotNullManager">
+-    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+-    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+-    <option name="myNullables">
+-      <value>
+-        <list size="4">
+-          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+-          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+-          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+-          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+-        </list>
+-      </value>
+-    </option>
+-    <option name="myNotNulls">
+-      <value>
+-        <list size="4">
+-          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+-          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+-          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+-          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+-        </list>
+-      </value>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/build/classes" />
+-  </component>
+-  <component name="ProjectType">
+-    <option name="id" value="Android" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Listadetarefas/.idea/.gitignore
+===================================================================
+diff --git a/../Listadetarefas/.idea/.gitignore b/../Listadetarefas/.idea/.gitignore
+deleted file mode 100644
+--- a/../Listadetarefas/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../compras/caches/6.8/scripts/9fhv4vje1kjljfqss32mbtzbn/cache.properties
+===================================================================
+diff --git a/../compras/caches/6.8/scripts/9fhv4vje1kjljfqss32mbtzbn/cache.properties b/../compras/caches/6.8/scripts/9fhv4vje1kjljfqss32mbtzbn/cache.properties
+deleted file mode 100644
+--- a/../compras/caches/6.8/scripts/9fhv4vje1kjljfqss32mbtzbn/cache.properties	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-#Fri Dec 03 19:58:12 BRT 2021
+Index: ../compras/.idea/vcs.xml
+===================================================================
+diff --git a/../compras/.idea/vcs.xml b/../compras/.idea/vcs.xml
+deleted file mode 100644
+--- a/../compras/.idea/vcs.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Activity/.idea/.gitignore
+===================================================================
+diff --git a/../Activity/.idea/.gitignore b/../Activity/.idea/.gitignore
+deleted file mode 100644
+--- a/../Activity/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../exemplo_flutter/android/.gitignore
+===================================================================
+diff --git a/../exemplo_flutter/android/.gitignore b/../exemplo_flutter/android/.gitignore
+deleted file mode 100644
+--- a/../exemplo_flutter/android/.gitignore	
++++ /dev/null	
+@@ -1,13 +0,0 @@
+-gradle-wrapper.jar
+-/.gradle
+-/captures/
+-/gradlew
+-/gradlew.bat
+-/local.properties
+-GeneratedPluginRegistrant.java
+-
+-# Remember to never publicly share your keystore.
+-# See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
+-key.properties
+-**/*.keystore
+-**/*.jks
+Index: ../compras/caches/6.8/scripts/emieh5pej3rji8k6pjrpfpko1/cache.properties
+===================================================================
+diff --git a/../compras/caches/6.8/scripts/emieh5pej3rji8k6pjrpfpko1/cache.properties b/../compras/caches/6.8/scripts/emieh5pej3rji8k6pjrpfpko1/cache.properties
+deleted file mode 100644
+--- a/../compras/caches/6.8/scripts/emieh5pej3rji8k6pjrpfpko1/cache.properties	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-#Fri Dec 03 19:58:05 BRT 2021
+Index: ../compras/caches/journal-1/file-access.properties
+===================================================================
+diff --git a/../compras/caches/journal-1/file-access.properties b/../compras/caches/journal-1/file-access.properties
+deleted file mode 100644
+--- a/../compras/caches/journal-1/file-access.properties	
++++ /dev/null	
+@@ -1,2 +0,0 @@
+-#Wed Nov 17 23:01:07 BRT 2021
+-inceptionTimestamp=1637200867039
+Index: ../compras/.idea/modules.xml
+===================================================================
+diff --git a/../compras/.idea/modules.xml b/../compras/.idea/modules.xml
+deleted file mode 100644
+--- a/../compras/.idea/modules.xml	
++++ /dev/null	
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Compras.iml" filepath="$PROJECT_DIR$/.idea/Compras.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Fragments/app/src/main/res/layout/fragment_contatos.xml
+===================================================================
+diff --git a/../Fragments/app/src/main/res/layout/fragment_contatos.xml b/../Fragments/app/src/main/res/layout/fragment_contatos.xml
+deleted file mode 100644
+--- a/../Fragments/app/src/main/res/layout/fragment_contatos.xml	
++++ /dev/null	
+@@ -1,17 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".fragment.ContatosFragment">
+-
+-    <!-- TODO: Update blank fragment layout -->
+-    <TextView
+-        android:id="@+id/textContatos"
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent"
+-        android:gravity="center_horizontal|center_vertical"
+-        android:text="@string/contatos"
+-        android:textSize="24sp" />
+-
+-</FrameLayout>
+\ No newline at end of file
+Index: ../Listadetarefas/.idea/vcs.xml
+===================================================================
+diff --git a/../Listadetarefas/.idea/vcs.xml b/../Listadetarefas/.idea/vcs.xml
+deleted file mode 100644
+--- a/../Listadetarefas/.idea/vcs.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Listadetarefas/.idea/gradle.xml
+===================================================================
+diff --git a/../Listadetarefas/.idea/gradle.xml b/../Listadetarefas/.idea/gradle.xml
+deleted file mode 100644
+--- a/../Listadetarefas/.idea/gradle.xml	
++++ /dev/null	
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="GradleMigrationSettings" migrationVersion="1" />
+-  <component name="GradleSettings">
+-    <option name="linkedExternalProjectsSettings">
+-      <GradleProjectSettings>
+-        <option name="testRunner" value="GRADLE" />
+-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="modules">
+-          <set>
+-            <option value="$PROJECT_DIR$" />
+-            <option value="$PROJECT_DIR$/app" />
+-          </set>
+-        </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+-      </GradleProjectSettings>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../exemplo_flutter/ios/Flutter/flutter_export_environment.sh
+===================================================================
+diff --git a/../exemplo_flutter/ios/Flutter/flutter_export_environment.sh b/../exemplo_flutter/ios/Flutter/flutter_export_environment.sh
+deleted file mode 100644
+--- a/../exemplo_flutter/ios/Flutter/flutter_export_environment.sh	
++++ /dev/null	
+@@ -1,13 +0,0 @@
+-#!/bin/sh
+-# This is a generated file; do not edit or check into version control.
+-export "FLUTTER_ROOT=C:\development\flutter"
+-export "FLUTTER_APPLICATION_PATH=C:\Users\tonli\StudioProjects\exemplo_flutter"
+-export "COCOAPODS_PARALLEL_CODE_SIGN=true"
+-export "FLUTTER_TARGET=lib\main.dart"
+-export "FLUTTER_BUILD_DIR=build"
+-export "FLUTTER_BUILD_NAME=1.0.0"
+-export "FLUTTER_BUILD_NUMBER=1"
+-export "DART_OBFUSCATION=false"
+-export "TRACK_WIDGET_CREATION=false"
+-export "TREE_SHAKE_ICONS=false"
+-export "PACKAGE_CONFIG=.packages"
+Index: ../Activity/app/src/main/res/layout/activity_segunda.xml
+===================================================================
+diff --git a/../Activity/app/src/main/res/layout/activity_segunda.xml b/../Activity/app/src/main/res/layout/activity_segunda.xml
+deleted file mode 100644
+--- a/../Activity/app/src/main/res/layout/activity_segunda.xml	
++++ /dev/null	
+@@ -1,63 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".SegundaActivity">
+-
+-    <TextView
+-        android:id="@+id/textEmail"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="email"
+-        android:textSize="20sp"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.497"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toBottomOf="@+id/textSobrenome"
+-        app:layout_constraintVertical_bias="0.028" />
+-
+-    <TextView
+-        android:id="@+id/textSobrenome"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="16dp"
+-        android:text="Sobrenome"
+-        android:textSize="20sp"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toBottomOf="@+id/textIdade" />
+-
+-    <TextView
+-        android:id="@+id/textIdade"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="20dp"
+-        android:text="Idade"
+-        android:textSize="20sp"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.498"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toBottomOf="@+id/textNome" />
+-
+-    <TextView
+-        android:id="@+id/textNome"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="28dp"
+-        android:text="Nome"
+-        android:textSize="30sp"
+-        android:textStyle="bold"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
+-
+-    <androidx.constraintlayout.widget.Guideline
+-        android:id="@+id/guideline2"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:orientation="vertical"
+-        app:layout_constraintGuide_begin="20dp" />
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: ../compras/caches/6.8/scripts/6uj281vspw09fv6ilhbchdi9h/cache.properties
+===================================================================
+diff --git a/../compras/caches/6.8/scripts/6uj281vspw09fv6ilhbchdi9h/cache.properties b/../compras/caches/6.8/scripts/6uj281vspw09fv6ilhbchdi9h/cache.properties
+deleted file mode 100644
+--- a/../compras/caches/6.8/scripts/6uj281vspw09fv6ilhbchdi9h/cache.properties	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-#Fri Dec 03 19:58:06 BRT 2021
+Index: ../compras/caches/6.8/scripts/wjb6sdf0404q5x71f6dwis5q/cache.properties
+===================================================================
+diff --git a/../compras/caches/6.8/scripts/wjb6sdf0404q5x71f6dwis5q/cache.properties b/../compras/caches/6.8/scripts/wjb6sdf0404q5x71f6dwis5q/cache.properties
+deleted file mode 100644
+--- a/../compras/caches/6.8/scripts/wjb6sdf0404q5x71f6dwis5q/cache.properties	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-#Fri Dec 03 19:58:12 BRT 2021
+Index: ../exemplo_flutter/ios/Runner/GeneratedPluginRegistrant.m
+===================================================================
+diff --git a/../exemplo_flutter/ios/Runner/GeneratedPluginRegistrant.m b/../exemplo_flutter/ios/Runner/GeneratedPluginRegistrant.m
+deleted file mode 100644
+--- a/../exemplo_flutter/ios/Runner/GeneratedPluginRegistrant.m	
++++ /dev/null	
+@@ -1,14 +0,0 @@
+-//
+-//  Generated file. Do not edit.
+-//
+-
+-// clang-format off
+-
+-#import "GeneratedPluginRegistrant.h"
+-
+-@implementation GeneratedPluginRegistrant
+-
+-+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
+-}
+-
+-@end
+Index: ../Fragments/.idea/render.experimental.xml
+===================================================================
+diff --git a/../Fragments/.idea/render.experimental.xml b/../Fragments/.idea/render.experimental.xml
+deleted file mode 100644
+--- a/../Fragments/.idea/render.experimental.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RenderSettings">
+-    <option name="showDecorations" value="true" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../compras/caches/6.8/scripts/7xsbt94jwgeoka1qzpd6sotuw/cache.properties
+===================================================================
+diff --git a/../compras/caches/6.8/scripts/7xsbt94jwgeoka1qzpd6sotuw/cache.properties b/../compras/caches/6.8/scripts/7xsbt94jwgeoka1qzpd6sotuw/cache.properties
+deleted file mode 100644
+--- a/../compras/caches/6.8/scripts/7xsbt94jwgeoka1qzpd6sotuw/cache.properties	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-#Fri Dec 03 19:58:12 BRT 2021
+Index: ../Fragments/.idea/gradle.xml
+===================================================================
+diff --git a/../Fragments/.idea/gradle.xml b/../Fragments/.idea/gradle.xml
+deleted file mode 100644
+--- a/../Fragments/.idea/gradle.xml	
++++ /dev/null	
+@@ -1,19 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="GradleSettings">
+-    <option name="linkedExternalProjectsSettings">
+-      <GradleProjectSettings>
+-        <option name="testRunner" value="GRADLE" />
+-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="modules">
+-          <set>
+-            <option value="$PROJECT_DIR$" />
+-            <option value="$PROJECT_DIR$/app" />
+-          </set>
+-        </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+-      </GradleProjectSettings>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Activity/app/src/main/java/com/example/activity/Usuario.java
+===================================================================
+diff --git a/../Activity/app/src/main/java/com/example/activity/Usuario.java b/../Activity/app/src/main/java/com/example/activity/Usuario.java
+deleted file mode 100644
+--- a/../Activity/app/src/main/java/com/example/activity/Usuario.java	
++++ /dev/null	
+@@ -1,31 +0,0 @@
+-package com.example.activity;
+-
+-import java.io.Serializable;
+-
+-//Serializable converte um objeto em bytes
+-//Usando para transferência de dados entre activities
+-public class Usuario implements Serializable {
+-    private String Sobrenome;
+-    private String email;
+-
+-    public Usuario(String Sobrenome, String email) {
+-        this.Sobrenome = Sobrenome;
+-        this.email = email;
+-    }
+-
+-    public String getSobrenome() {
+-        return Sobrenome;
+-    }
+-
+-    public void setSobrenome(String Sobrenome) {
+-        this.Sobrenome = Sobrenome;
+-    }
+-
+-    public String getEmail() {
+-        return email;
+-    }
+-
+-    public void setEmail(String email) {
+-        this.email = email;
+-    }
+-}
+Index: ../Fragments/.idea/.gitignore
+===================================================================
+diff --git a/../Fragments/.idea/.gitignore b/../Fragments/.idea/.gitignore
+deleted file mode 100644
+--- a/../Fragments/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../MyApplication/.idea/.gitignore
+===================================================================
+diff --git a/../MyApplication/.idea/.gitignore b/../MyApplication/.idea/.gitignore
+deleted file mode 100644
+--- a/../MyApplication/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../Fragments/.idea/vcs.xml
+===================================================================
+diff --git a/../Fragments/.idea/vcs.xml b/../Fragments/.idea/vcs.xml
+deleted file mode 100644
+--- a/../Fragments/.idea/vcs.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../CardView2/.idea/compiler.xml
+===================================================================
+diff --git a/../CardView2/.idea/compiler.xml b/../CardView2/.idea/compiler.xml
+deleted file mode 100644
+--- a/../CardView2/.idea/compiler.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../exemplo_flutter/ios/Runner/GeneratedPluginRegistrant.h
+===================================================================
+diff --git a/../exemplo_flutter/ios/Runner/GeneratedPluginRegistrant.h b/../exemplo_flutter/ios/Runner/GeneratedPluginRegistrant.h
+deleted file mode 100644
+--- a/../exemplo_flutter/ios/Runner/GeneratedPluginRegistrant.h	
++++ /dev/null	
+@@ -1,19 +0,0 @@
+-//
+-//  Generated file. Do not edit.
+-//
+-
+-// clang-format off
+-
+-#ifndef GeneratedPluginRegistrant_h
+-#define GeneratedPluginRegistrant_h
+-
+-#import <Flutter/Flutter.h>
+-
+-NS_ASSUME_NONNULL_BEGIN
+-
+-@interface GeneratedPluginRegistrant : NSObject
+-+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;
+-@end
+-
+-NS_ASSUME_NONNULL_END
+-#endif /* GeneratedPluginRegistrant_h */
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"GRADLE\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	
++++ b/.idea/gradle.xml	
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>

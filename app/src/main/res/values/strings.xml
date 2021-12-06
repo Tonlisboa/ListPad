@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Projeto ListaPad</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Antonio Lisboa</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="menu_todos_listpad">Todos</string>
+    <string name="menu_urgentes">Urgentes</string>
+    <string name="menu_nao_urgentes">Não urgentes</string>
+    <string name="cadastro_listpad">Cadastro</string>
+    <string name="nao_urgentes">Nao Urgentes</string>
+    <string name="urgentes">urgentes</string>
+    <string name="todos_listpad">Todos</string>
+    <string name="salvar">Salvar</string>
+    <string name="nao_urgente">Não Urgente</string>
+    <string name="Urgente">Urgente</string>
+    <string name="nao_confirmado">Não confirmado</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="nome">Nome</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="remocao_listpad">Remoção</string>
+    <string name="deseja_remover">Deseja remover da lista?</string>
+    <string name="remover">Remover</string>
+    <string name="removido_com_sucesso">Removido com sucesso.</string>
+    <string name="total">Total</string>
+</resources>
