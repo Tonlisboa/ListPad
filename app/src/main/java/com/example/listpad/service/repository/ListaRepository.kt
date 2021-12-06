@@ -107,7 +107,7 @@ class ListaRepository private constructor(context: Context) {
             )
 
             // Linha única
-            // Cursor cursor = db.rawQuery("select * from ListPad", null);
+            //Cursor cursor = db.rawQuery("select * from ListPad", null);
 
             // Faz a seleção
             val cursor = db.query(

@@ -10,24 +10,24 @@ import com.example.listpad.service.repository.ListaRepository
 
 class ListPadViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val mGuestRepository = ListaRepository.getInstance(application.applicationContext)
+    private val mListRepository = ListaRepository.getInstance(application.applicationContext)
 
-    private val mGuestList = MutableLiveData<List<ListaModel>>()
-    val listaList: LiveData<List<ListaModel>> = mGuestList
+    private val mtList = MutableLiveData<List<ListaModel>>()
+    val listaList: LiveData<List<ListaModel>> = mtList
 
     fun load(filter: Int) {
 
         if (filter == ListaConstants.FILTER.TODOS) {
-            mGuestList.value = mGuestRepository.getAll()
+            mtList.value = mListRepository.getAll()
         } else if (filter == ListaConstants.FILTER.URGENTE) {
-            mGuestList.value = mGuestRepository.getUrgente()
+            mtList.value = mListRepository.getUrgente()
         } else {
-            mGuestList.value = mGuestRepository.getNaoUgente()
+            mtList.value = mListRepository.getNaoUgente()
         }
     }
 
     fun delete(id: Int) {
-        mGuestRepository.delete(id)
+        mListRepository.delete(id)
     }
 
 }
